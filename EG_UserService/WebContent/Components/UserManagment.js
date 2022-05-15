@@ -132,6 +132,7 @@ function validateProjectForm() {
 	if ($("#password").val().trim() == "") {
 		return "Insert Password";
 	}
-	
+
+
 	return true;
 }

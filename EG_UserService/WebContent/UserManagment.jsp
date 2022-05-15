@@ -32,8 +32,7 @@
 						<br>Account No: <input id="AccountNo" name="AccountNo" type="text"
 						class="form-control form-control-sm"> 
 
-						<br>Otp: <input id="otp" name="otp" type="text"
-						class="form-control form-control-sm"> 
+						
 						
 						<br> <input
 						id="btnSave" name="btnSave" type="button" value="Save"

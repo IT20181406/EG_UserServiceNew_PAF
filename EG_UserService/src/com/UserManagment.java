@@ -47,7 +47,7 @@ public class UserManagment {
 			preparedStmt.setString(4, password);
 			preparedStmt.setString(5, AccountNo);
 			preparedStmt.setInt(6, otp);
-			preparedStmt.setString(7, "In Active");
+			preparedStmt.setString(7, "Inactive");
 
 			// execute the statement
 			preparedStmt.execute();
