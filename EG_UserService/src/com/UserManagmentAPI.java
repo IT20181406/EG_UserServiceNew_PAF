@@ -68,8 +68,6 @@ public class UserManagmentAPI extends HttpServlet {
 				paras.get("AccountNo").toString()
 			
 				
-				
-
 		);
 
 		response.getWriter().write(output);

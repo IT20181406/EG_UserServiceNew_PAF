@@ -124,7 +124,7 @@ public class UserManagment {
 			}
 
 			// create a prepared statement
-			String query = "UPDATE user SET name=?,email=?,password=?,AccountNo=?,otp=? WHERE id=?";
+			String query = "UPDATE user SET name=?,email=?,password=?,AccountNo=? WHERE id=?";
 
 			PreparedStatement preparedStmt = con.prepareStatement(query);
 
